@@ -4,7 +4,7 @@ ARG VERSION=master
 FROM centos:7
 LABEL maintainers="Gorka Eguileor <geguileo@redhat.com>" \
       description="Ember CSI Plugin" \
-      version=${VERSION}
+      version=${VERSION} \
       cinderlib_release=${RELEASE}
 
 # Enable RPDB debugging on this container by default
